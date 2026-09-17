@@ -1,0 +1,34 @@
+﻿Dataset,Split,Region,SplitLabel,Accuracy,Accuracy_std,Precision,Precision_std,Recall,Recall_std,F1,F1_std,AUROC,AUROC_std,AUPR,AUPR_std
+SNAP,random split,,Random split,0.868,0.004,0.849,0.008,0.897,0.005,0.872,0.004,0.939,0.003,0.938,0.004
+SNAP,cold drug split,,Cold drug,0.818,0.009,0.84,0.013,0.779,0.03,0.808,0.013,0.889,0.011,0.894,0.009
+SNAP,cold prot split,,Cold protein,0.814,0.017,0.848,0.02,0.764,0.043,0.804,0.032,0.886,0.016,0.897,0.023
+SNAP,drug radial split,near,"Drug radial
+(near)",0.808,0.007,0.858,0.008,0.75,0.02,0.8,0.01,0.886,0.005,0.896,0.001
+SNAP,drug radial split,far,"Drug radial
+(far)",0.708,0.011,0.777,0.016,0.558,0.033,0.649,0.02,0.784,0.009,0.786,0.011
+SNAP,prot radial split,near,"Protein radial
+(near)",0.741,0.008,0.702,0.013,0.527,0.025,0.602,0.018,0.782,0.004,0.706,0.014
+SNAP,prot radial split,far,"Protein radial
+(far)",0.688,0.015,0.527,0.046,0.324,0.029,0.4,0.032,0.666,0.022,0.487,0.026
+DRH,random split,,Random split,0.835,0.006,0.809,0.011,0.877,0.009,0.842,0.004,0.916,0.004,0.917,0.006
+DRH,cold drug split,,Cold drug,0.787,0.008,0.798,0.013,0.756,0.01,0.777,0.006,0.867,0.007,0.867,0.005
+DRH,cold prot split,,Cold protein,0.808,0.008,0.807,0.017,0.802,0.017,0.805,0.015,0.883,0.008,0.89,0.015
+DRH,drug radial split,near,"Drug radial
+(near)",0.744,0.008,0.786,0.008,0.678,0.02,0.728,0.013,0.821,0.007,0.831,0.008
+DRH,drug radial split,far,"Drug radial
+(far)",0.654,0.012,0.777,0.018,0.543,0.033,0.638,0.021,0.739,0.014,0.784,0.014
+DRH,prot radial split,near,"Protein radial
+(near)",0.708,0.009,0.713,0.014,0.496,0.03,0.584,0.02,0.76,0.009,0.72,0.013
+DRH,prot radial split,far,"Protein radial
+(far)",0.694,0.004,0.554,0.03,0.339,0.057,0.417,0.04,0.69,0.013,0.53,0.017
+TTD,random split,,Random split,0.884,0.003,0.868,0.005,0.906,0.004,0.887,0.003,0.947,0.002,0.948,0.002
+TTD,cold drug split,,Cold drug,0.872,0.003,0.855,0.006,0.896,0.005,0.875,0.003,0.939,0.002,0.94,0.002
+TTD,cold prot split,,Cold protein,0.759,0.027,0.833,0.018,0.653,0.047,0.731,0.032,0.834,0.025,0.854,0.022
+TTD,drug radial split,near,"Drug radial
+(near)",0.849,0.005,0.85,0.017,0.846,0.014,0.848,0.004,0.917,0.002,0.922,0.003
+TTD,drug radial split,far,"Drug radial
+(far)",0.749,0.011,0.806,0.011,0.66,0.032,0.725,0.017,0.821,0.012,0.835,0.009
+TTD,prot radial split,near,"Protein radial
+(near)",0.714,0.021,0.829,0.018,0.532,0.055,0.646,0.041,0.814,0.016,0.824,0.018
+TTD,prot radial split,far,"Protein radial
+(far)",0.707,0.007,0.555,0.038,0.246,0.017,0.34,0.018,0.636,0.025,0.488,0.025
